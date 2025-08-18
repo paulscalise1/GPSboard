@@ -28427,7 +28427,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 185.42) (xy 95.25 186.69)
+			(xy 127 148.59) (xy 127 149.86)
 		)
 		(stroke
 			(width 0)
@@ -28635,9 +28635,29 @@
 		)
 		(uuid "8088d17d-660b-48f3-bba4-946db40c54c9")
 	)
+	(polyline
+		(pts
+			(xy 12.7 109.22) (xy 96.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d50221-286a-48b7-8826-5c91295a81f4")
+	)
+	(polyline
+		(pts
+			(xy 185.42 12.7) (xy 185.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ecc0d9-013f-486d-893b-d0cf780414ef")
+	)
 	(wire
 		(pts
-			(xy 95.25 186.69) (xy 110.49 186.69)
+			(xy 127 149.86) (xy 142.24 149.86)
 		)
 		(stroke
 			(width 0)
@@ -28684,6 +28704,16 @@
 			(type default)
 		)
 		(uuid "b0562409-af85-4b75-bf20-6823af462b59")
+	)
+	(polyline
+		(pts
+			(xy 96.52 12.7) (xy 96.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4038b65-9dcd-4799-9cf8-c66cb7ac8db3")
 	)
 	(wire
 		(pts
@@ -28745,6 +28775,16 @@
 		)
 		(uuid "f5b8a466-af95-48c0-b6c7-b02d7e3dcae0")
 	)
+	(polyline
+		(pts
+			(xy 96.52 109.22) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c92a7c-e78b-45e9-b0e6-0e99e16e3c90")
+	)
 	(text "MAX-M8W GNSS Module"
 		(exclude_from_sim no)
 		(at 22.098 39.37 0)
@@ -28781,21 +28821,9 @@
 		)
 		(uuid "1c5c54ae-fb18-41f5-a26a-191a47ce9ebb")
 	)
-	(text "MAX-M8 I2C Config"
-		(exclude_from_sim no)
-		(at 121.92 138.0744 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.8956 2.8956)
-			)
-			(justify left top)
-		)
-		(uuid "34f8dc71-10a6-4fcd-b64f-734b20181da2")
-	)
 	(text "STM SWD"
 		(exclude_from_sim no)
-		(at 99.568 174.752 0)
+		(at 131.318 137.922 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -28831,7 +28859,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 110.49 189.23 180)
+		(at 142.24 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28841,7 +28869,7 @@
 		)
 		(uuid "0f62d498-6714-44f2-b537-e07812eab699")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.2758 189.23 0)
+			(at 133.0258 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28911,26 +28939,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 143.51 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "448cc2f2-c9aa-45b1-a12c-1c7ceaf5d11b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_RX"
 		(shape output)
 		(at 212.09 68.58 180)
@@ -28943,26 +28951,6 @@
 		(uuid "45a7e832-c2f5-496c-8b0a-3c137ad3c9da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 143.51 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49e85bf9-e7ca-4c0c-8a22-1337904e1da2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28993,7 +28981,7 @@
 	)
 	(global_label "STM_RST"
 		(shape input)
-		(at 110.49 184.15 180)
+		(at 142.24 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29003,7 +28991,7 @@
 		)
 		(uuid "5616df3f-b1cb-49b4-89e3-cae0f050f604")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.4616 184.15 0)
+			(at 131.2116 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29159,7 +29147,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 110.49 194.31 180)
+		(at 142.24 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29169,7 +29157,7 @@
 		)
 		(uuid "a460498b-40c0-4987-a233-9e34da4c0ef5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5273 194.31 0)
+			(at 132.2773 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29847,7 +29835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 191.77 270)
+		(at 142.24 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29855,7 +29843,7 @@
 		(dnp no)
 		(uuid "2de174a7-4b41-463e-949c-93aa7d06c67a")
 		(property "Reference" "#PWR018"
-			(at 104.14 191.77 0)
+			(at 135.89 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29864,7 +29852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.664 191.77 90)
+			(at 137.414 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29872,7 +29860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 191.77 0)
+			(at 142.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29881,7 +29869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 191.77 0)
+			(at 142.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29890,7 +29878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 191.77 0)
+			(at 142.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30688,7 +30676,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.25 185.42 0)
+		(at 127 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30696,7 +30684,7 @@
 		(dnp no)
 		(uuid "810839c6-06a3-479b-bccd-244404d0a1f4")
 		(property "Reference" "#PWR019"
-			(at 95.25 189.23 0)
+			(at 127 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30705,7 +30693,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 94.742 181.102 0)
+			(at 126.492 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30713,7 +30701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 185.42 0)
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30722,7 +30710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 185.42 0)
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30731,7 +30719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 95.25 185.42 0)
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31028,7 +31016,7 @@
 	(symbol
 		(lib_name "Samtec_ASP-134486-01_2")
 		(lib_id "Connector:Samtec_ASP-134486-01")
-		(at 113.03 177.8 0)
+		(at 144.78 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31037,7 +31025,7 @@
 		(fields_autoplaced yes)
 		(uuid "917d6f3d-4823-4b35-bc95-06348692aba2")
 		(property "Reference" "J4"
-			(at 111.252 180.848 0)
+			(at 143.002 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31046,7 +31034,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 100.838 180.848 0)
+			(at 132.588 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31055,7 +31043,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 114.3 123.19 0)
+			(at 146.05 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31064,7 +31052,7 @@
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf"
-			(at 116.84 124.46 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31073,7 +31061,7 @@
 			)
 		)
 		(property "Description" "Connector array, 10x40, 1.27mm pitch, carrier-card, receptacle, gold finish, VITA 57.1 FMC, SMD"
-			(at 113.03 177.8 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31909,130 +31897,6 @@
 			(project "GPS_board_v3"
 				(path "/c3e0ad51-8a79-42ff-b905-b5467e5e45fa"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Samtec_ASP-134486-01")
-		(at 146.05 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff51f899-9992-4f62-9021-c96b88e56fd7")
-		(property "Reference" "J1"
-			(at 144.272 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 133.858 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 147.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector array, 10x40, 1.27mm pitch, carrier-card, receptacle, gold finish, VITA 57.1 FMC, SMD"
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "H2"
-			(uuid "d3d552e7-d3cb-402c-a516-1a95bde38464")
-		)
-		(pin "J1"
-			(uuid "adfed91a-2d6f-41d5-ae81-0997f6adee09")
-		)
-		(pin "J2"
-			(uuid "88dbead6-e2fc-4df6-b7d0-46cfb28d69dc")
-		)
-		(pin "K1"
-			(uuid "348ec225-ef23-459f-ac62-845d25415ba4")
-		)
-		(pin "K2"
-			(uuid "34c5114c-6e5f-4df1-afdb-c3b472b17c56")
-		)
-		(pin "C1"
-			(uuid "d201762b-fc44-4ba7-91a0-91712e81eb1c")
-		)
-		(pin "E2"
-			(uuid "6ab0eabc-8211-4cf3-ac4c-c6645ebdf88d")
-		)
-		(pin "G2"
-			(uuid "8791405e-10f6-41c7-96a4-de98c7426b23")
-		)
-		(pin "E1"
-			(uuid "549e352d-f8d8-4992-bb65-af25646d33ea")
-		)
-		(pin "F2"
-			(uuid "a1571991-e745-407a-897c-21cd079a07fe")
-		)
-		(pin "D1"
-			(uuid "3162b02d-59ea-4465-b17c-ad31791e0fd9")
-		)
-		(pin "B1"
-			(uuid "e507bfdb-6027-4035-bfbb-dd0698df6adf")
-		)
-		(pin "B2"
-			(uuid "f8c51057-008b-48ab-abda-d9c2ea885a0b")
-		)
-		(pin "D2"
-			(uuid "a84f32d9-ce6b-4390-b64a-5c60620b4bbe")
-		)
-		(pin "1"
-			(uuid "ac910ae9-6a9b-4b61-9530-1db842ee0c52")
-		)
-		(pin "F1"
-			(uuid "cb77ee2f-7a6f-4c05-a631-7fcb04f0bcd7")
-		)
-		(pin "H1"
-			(uuid "2c9debe3-443d-4aff-a985-512d869343ca")
-		)
-		(pin "2"
-			(uuid "ff3b175e-b28b-4bc7-b23a-d369ac781400")
-		)
-		(pin "C2"
-			(uuid "8f03e7cc-593d-4d76-9b75-21f3569f97a1")
-		)
-		(pin "G1"
-			(uuid "70d1d6d0-e5ec-456d-be37-a7e1d314cc63")
-		)
-		(instances
-			(project "GPS_board_v3"
-				(path "/c3e0ad51-8a79-42ff-b905-b5467e5e45fa"
-					(reference "J1")
 					(unit 1)
 				)
 			)
