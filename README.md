@@ -1,9 +1,9 @@
 # GPS Board v3.0 r1.1
 
 This board is designed for ECEN-435 at the University of Nebraska-Lincoln (Scott Campus).
-GPS coordinates will print via CAN every 4 seconds. All GPS information is sent over CAN is ASCII encoded.
+GPS coordinates will print via CAN every 4 seconds. All GPS information sent over CAN is ASCII encoded.
 To obtain a lock, you must have a direct line of sight to the sky!!
-For CAN transmissions to work properly, the CAN resistor header (CAN R) must be shorted, allowing for proper reflection avoidance.
+For CAN transmissions to work properly, the CAN resistor header (CAN R) must be shorted, allowing for proper termination.
 
 Example Messages:
 
